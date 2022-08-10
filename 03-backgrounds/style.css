@@ -1,0 +1,12 @@
+#container {
+  /* With color */
+  /* background-color: rgb(235, 255, 90); */
+  /* With image */
+  background-image: url("./asset/image/1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  /* You can add color also */
+  background-color: #ffaa34;
+}

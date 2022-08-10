@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: rgb(14, 231, 202);
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: brown;
+}
