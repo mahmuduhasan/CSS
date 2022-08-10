@@ -1,0 +1,10 @@
+.overflow {
+  background-color: aquamarine;
+  border: 1px solid salmon;
+  width: 500px;
+  height: 400px;
+  /* overflow: scroll; */
+  /* overflow-x: hidden;
+  overflow-y: scroll; */
+  overflow: auto;
+}

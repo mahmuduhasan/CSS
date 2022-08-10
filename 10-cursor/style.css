@@ -1,0 +1,11 @@
+.para {
+  width: 100px;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-size: 50px;
+  cursor: cell;
+}
