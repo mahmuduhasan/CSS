@@ -1,0 +1,17 @@
+#green {
+  color: green;
+  font-size: 30px;
+}
+
+#blue {
+  color: red;
+}
+
+#initial {
+  color: initial;
+  font-size: initial;
+}
+
+#inherit {
+  color: inherit;
+}

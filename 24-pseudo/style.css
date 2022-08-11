@@ -1,0 +1,29 @@
+p:nth-child(2n + 1) {
+  color: brown;
+}
+
+li:nth-child(2) {
+  color: rgb(79, 126, 126);
+}
+
+input:focus {
+  border: 10px solid gray;
+}
+
+#element::first-letter {
+  font-size: 35px;
+  color: red;
+}
+
+h1::before {
+  content: "Added Before ";
+}
+
+h1::after {
+  content: " Added After";
+}
+
+p::selection {
+  color: blue;
+  background-color: brown;
+}
