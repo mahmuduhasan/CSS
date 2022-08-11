@@ -1,0 +1,36 @@
+body {
+  height: 2000px;
+}
+#parent {
+  border: 1px solid red;
+  padding: 20px;
+  width: 50%;
+  margin: 100px;
+  /* position: relative; */
+}
+#parent div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#one {
+  background-color: aquamarine;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+#two {
+  background-color: burlywood;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+#three {
+  background-color: cadetblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
