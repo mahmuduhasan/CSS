@@ -1,0 +1,31 @@
+:root {
+  --one-color: burlywood;
+  --two-color: cadetblue;
+  --three-color: darkcyan;
+}
+
+#parent div {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+}
+
+#one {
+  background-color: var(--one-color);
+  z-index: 3;
+}
+
+#two {
+  background-color: var(--two-color);
+  top: 50px;
+  left: -50px;
+  z-index: 2;
+}
+
+#three {
+  background-color: var(--three-color);
+  top: 100px;
+  left: -100px;
+  z-index: 1;
+}

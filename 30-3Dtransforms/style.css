@@ -1,0 +1,14 @@
+#cover {
+  border: 2px solid lightseagreen;
+  height: 300px;
+  width: 300px;
+  margin: 100px;
+}
+
+#content {
+  height: 300px;
+  width: 300px;
+  background-color: lightskyblue;
+  /* transform: perspective(100px) rotate3d(0, 0, 50, 20deg); */
+  transform: perspective(100px) translate3d(50px, -100px, -100px);
+}
