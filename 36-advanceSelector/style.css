@@ -1,0 +1,21 @@
+a[href="https://www.google.com"]
+{
+  color: rgb(226, 151, 226);
+}
+
+/* .info p {
+  font-size: 10px;
+} */
+
+.i + h1 {
+  color: blue;
+}
+
+.i ~ h1 {
+  color: rgb(0, 255, 115);
+}
+
+p,
+h1 {
+  font-size: 50px;
+}
