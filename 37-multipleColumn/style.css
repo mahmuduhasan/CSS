@@ -1,0 +1,13 @@
+div {
+  column-count: 3;
+  column-gap: 60px;
+  /* column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: brown; */
+  column-rule: 1px solid red;
+  column-width: 300px;
+}
+
+h1 {
+  column-span: all;
+}
